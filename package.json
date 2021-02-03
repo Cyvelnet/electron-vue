@@ -5,7 +5,7 @@
   "main": "meta.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SimulatedGREG/electron-vue.git"
+    "url": "git+https://github.com/Cyvelnet/electron-vue.git"
   },
   "keywords": [
     "electron",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/SimulatedGREG/electron-vue/issues"
   },
-  "homepage": "https://github.com/SimulatedGREG/electron-vue#readme",
+  "homepage": "https://github.com/Cyvelnet/electron-vue#readme",
   "devDependencies": {
     "suppose": "^0.6.1"
   }
