@@ -145,11 +145,11 @@ module.exports = {
     deps (plugins) {
       let output = ''
       let dependencies = {
-        'axios': '^0.18.0',
+        'axios': '^0.21.0',
         'vue-electron': '^1.0.6',
         'vue-router': '^3.0.1',
         'vuex': '^3.0.1',
-        'vuex-electron': '^1.0.0'
+        'electron-vuex': '^1.0.5'
       }
 
       if (Object.keys(plugins).length > 0) output += ',\n'
