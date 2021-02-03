@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 {{#isEnabled plugins 'vuex-electron'}}
-import { createPersistedState, createSharedMutations } from 'vuex-electron'
+import { createPersistedState, createSharedMutations } from "electron-vuex"
 
 {{/isEnabled}}
 import modules from './modules'
