@@ -149,7 +149,7 @@ module.exports = {
         'vue-electron': '^1.0.6',
         'vue-router': '^3.0.1',
         'vuex': '^3.0.1',
-        'electron-vuex': '^1.0.3'
+        'electron-vuex': '1.0.*'
       }
 
       if (Object.keys(plugins).length > 0) output += ',\n'
