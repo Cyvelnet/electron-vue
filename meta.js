@@ -91,14 +91,6 @@ module.exports = {
           value: 'elementui'
         },
         {
-          name: 'Vuetify',
-          value: 'vuetify'
-        },
-        {
-          name: 'Quasar',
-          value: 'quasar'
-        },
-        {
           name: 'None',
           value: 'none'
         }
