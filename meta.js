@@ -94,7 +94,8 @@ module.exports = {
           name: 'None',
           value: 'none'
         }
-      ]
+      ],
+      default: ['elementui']
     },
     eslint: {
       type: 'confirm',
