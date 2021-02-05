@@ -82,6 +82,28 @@ module.exports = {
       choices: ['axios', 'vue-electron', 'vue-router', 'vuex', 'electron-vuex'],
       default: ['axios', 'vue-electron', 'vue-router', 'vuex', 'electron-vuex']
     },
+    ui: {
+      type: 'list',
+      message: 'Select UI framework package to install',
+      choices: [
+        {
+          name: 'ElementUI',
+          value: 'elementui'
+        },
+        {
+          name: 'Vuetify',
+          value: 'vuetify'
+        },
+        {
+          name: 'Quasar',
+          value: 'quasar'
+        },
+        {
+          name: 'None',
+          value: 'none'
+        }
+      ]
+    },
     eslint: {
       type: 'confirm',
       require: true,
