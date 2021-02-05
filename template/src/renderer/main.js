@@ -17,6 +17,15 @@ if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 {{#isEnabled plugins 'axios'}}
 Vue.http = Vue.prototype.$http = axios
 {{/isEnabled}}
+
+{{#isEnabled ui 'elementui'}}
+import ElementUi from 'element-ui';
+import "element-ui/lib/theme-chalk/index.css";
+Vue.use(ElementUi);
+
+{{/isEnabled}}
+  
+  
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
