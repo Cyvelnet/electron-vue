@@ -18,11 +18,11 @@ if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 Vue.http = Vue.prototype.$http = axios
 {{/isEnabled}}
 
-{{#isEnabled ui 'ElementUI'}}
+{{#if_eq ui 'elementui'}}
 import ElementUi from 'element-ui';
 import "element-ui/lib/theme-chalk/index.css";
 Vue.use(ElementUi);
-{{/isEnabled}}
+{{/if_eq}}
   
 Vue.config.productionTip = false
 
